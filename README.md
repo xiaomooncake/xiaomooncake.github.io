@@ -59,28 +59,36 @@ Display expression category information
 Name: emotion, dtype: int64
 
 
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/1.png)
 
 We can see that the data for the disgust expression is particularly low, and the other expressions are fair. We will do data augmentation on this type of data to get more accurate results.
 
-
+```
 Training       28709
 PrivateTest     3589
 PublicTest      3589
 Name: Usage, dtype: int64
-
+```
 Size of training, public test, private test sets
 
 
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/2.png)
+
 
 Show some training samples to make sure the data is normal.
+
+
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/3.png)
 
 Model implementation
 vgg19
 
 
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/4.png)
 
 ResNet18
 
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/5.png)
 
 Save the trained models
 ```python
