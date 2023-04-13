@@ -18,6 +18,7 @@
   <a href="#state-of-the-art">State-of-the-Art</a> •
   <a href="#proposed-approach">Proposed Approach</a> •
   <a href="#novelty">Novelty</a> •
+  <a href="#progress">Progress</a> • 
   <a href="#evaluation">Evaluation</a>
 </p>
 
@@ -45,6 +46,76 @@ Our proposed approach is to develop a CNN-based facial expression recognition sy
 ## Novelty 
 
 The proposed approach differs from existing methods in that it does not rely on pre-trained models for feature extraction, allowing the network to learn more discriminative features from the raw input data. Additionally, we will investigate the use of attention mechanisms to focus on the most informative regions of the face. Finally, we will explore the use of transfer learning techniques to leverage pre-trained models trained on related tasks such as face recognition.
+
+## Progress
+Display expression category information
+3    8989
+6    6198
+4    6077
+2    5121
+0    4953
+5    4002
+1     547
+Name: emotion, dtype: int64
+
+
+
+We can see that the data for the disgust expression is particularly low, and the other expressions are fair. We will do data augmentation on this type of data to get more accurate results.
+
+
+Training       28709
+PrivateTest     3589
+PublicTest      3589
+Name: Usage, dtype: int64
+
+Size of training, public test, private test sets
+
+
+
+Show some training samples to make sure the data is normal.
+
+Model implementation
+vgg19
+
+
+
+ResNet18
+
+
+Save the trained models
+
+vgg19 = train_vgg19(train_dataset,train_labels,Val_dataset,Test_dataset,batch_size,epochs,learning_rate ,momen_tum=0.9,wt_decay = 5e-4)
+torch.save(vgg19,'fer2013_vgg19_model.pkl')
+
+resnet18 = train_resnet18(train_dataset,train_labels,Val_dataset,Test_dataset,batch_size,epochs,learning_rate ,momen_tum=0.9,wt_decay = 5e-4)
+torch.save(resnet18,'fer2013_resnet18_model.pkl')
+
+Building a fusion model network
+
+class Multiple(nn.Module):
+    def __init__(self):
+        super(Multiple,self).__init__()        
+        
+        self.fc = nn.Sequential(
+             nn.Linear(in_features = 14,out_features = 7),
+        )
+        
+    def forward(self,x):
+        
+        #Pre-processed by base model
+        result_1 = vgg(x)
+        result_2 = resnet(x)
+        
+        #Characteristics of the splice base model after processing
+        result_1 = result_1.view(result_1.shape[0],-1)
+        result_2 = result_2.view(result_2.shape[0],-1)
+        result = torch.cat((result_1,result_2),1)
+        
+        #Input the processed features of the base model into the fusion model
+        y = self.fc(result)
+        
+        return y
+
 
 ## Evaluation
 
