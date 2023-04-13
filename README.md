@@ -83,15 +83,17 @@ ResNet18
 
 
 Save the trained models
-
+```python
 vgg19 = train_vgg19(train_dataset,train_labels,Val_dataset,Test_dataset,batch_size,epochs,learning_rate ,momen_tum=0.9,wt_decay = 5e-4)
 torch.save(vgg19,'fer2013_vgg19_model.pkl')
-
+```
+```python
 resnet18 = train_resnet18(train_dataset,train_labels,Val_dataset,Test_dataset,batch_size,epochs,learning_rate ,momen_tum=0.9,wt_decay = 5e-4)
 torch.save(resnet18,'fer2013_resnet18_model.pkl')
-
+```
 Building a fusion model network
 
+```python
 class Multiple(nn.Module):
     def __init__(self):
         super(Multiple,self).__init__()        
@@ -115,7 +117,7 @@ class Multiple(nn.Module):
         y = self.fc(result)
         
         return y
-
+```
 
 ## Evaluation
 
