@@ -99,7 +99,7 @@ torch.save(vgg19,'fer2013_vgg19_model.pkl')
 resnet18 = train_resnet18(train_dataset,train_labels,Val_dataset,Test_dataset,batch_size,epochs,learning_rate ,momen_tum=0.9,wt_decay = 5e-4)
 torch.save(resnet18,'fer2013_resnet18_model.pkl')
 ```
-Building a fusion model network
+Building a blended model network
 
 ```python
 class Multiple(nn.Module):
@@ -126,6 +126,26 @@ class Multiple(nn.Module):
         
         return y
 ```
+
+Training results:
+
+ResNet18:
+``` python
+Resnet18 moedel final result：
+The acc_train is : 0.6579818175485039
+The acc_val is : 0.5458344942881025
+The acc_test is : 0.5572582892170521
+```
+VGGNet19
+``` python
+VGG19 final result：
+The acc_train is : 0.6178550280399875
+The acc_val is : 0.5773195876288659
+The acc_test is : 0.5887433825578156
+
+```
+Blended model
+
 
 ## Evaluation
 
