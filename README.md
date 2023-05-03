@@ -23,7 +23,7 @@
 </p>
 
 ## Documents
-[download](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/766%20Presentation.pptx)
+[Presentation="download"](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/766%20Presentation.pptx)
 [download](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/Project%20proposal.pdf)
 [download](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/midterm-report%20(1).pdf)
 ## Introduction
