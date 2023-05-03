@@ -154,6 +154,7 @@ confusion matrix
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/confusion_matrix.png)
 
 Vaild results(blended model):
+
 ```
 Angry
 result：	 	  	 [0, 0, 0, 0, 0, 0, 0, 0]
@@ -176,8 +177,6 @@ predicted result：	 [5, 3, 5, 5, 5, 5, 5, 5, 6]
 Neural
 result：			 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
 predicted result：	 [2, 6, 3, 6, 6, 3, 6, 6, 6, 6, 6, 6, 0, 4, 6]
-
-
 ```
 ## Evaluation
 
