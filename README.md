@@ -19,7 +19,7 @@
   <a href="#proposed-approach">Proposed Approach</a> •
   <a href="#novelty">Novelty</a> •
   <a href="#progress">Progress</a> • 
-  <a href="#evaluation">Evaluation</a>
+  <a href="#evaluation">Evaluation and Future work</a>
 </p>
 
 
@@ -178,9 +178,17 @@ Neural
 result：			 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
 predicted result：	 [2, 6, 3, 6, 6, 3, 6, 6, 6, 6, 6, 6, 0, 4, 6]
 ```
-## Evaluation
+## Evaluation and Future work
 
-We will evaluate the performance of our proposed approach on two standard datasets, FER2013 and CK+, which contain labeled facial expression images and videos. We will compare the performance of our model with the state-of-the-art approaches using standard evaluation metrics such as accuracy, F1-score, and confusion matrix. We will also investigate the robustness of our model to variations in lighting, pose, and occlusions. The timeline for this project will be as follows:
+1.Investigating other combinations of pre-trained models and exploring ensemble techniques to further enhance the model's performance.
+2.Applying advanced image processing techniques, such as background subtraction, illumination normalization, and occlusion handling, to further preprocess the input images and enhance the model's performance.
+3.Real-time applications:
+-human-computer interaction
+-mental health monitoring
+-customer experience
+-entertainment
+-education
+
 * Feb 24: Project proposal
 * 1) Data collection and preprocessing - 1 month;
 * 2) Model design and implementation - 2 months; 
