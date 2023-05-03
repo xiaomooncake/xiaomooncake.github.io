@@ -23,9 +23,12 @@
 </p>
 
 ## Documents
-[Presentation="download"](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/766%20Presentation.pptx)
-[download](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/Project%20proposal.pdf)
-[download](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/midterm-report%20(1).pdf)
+
+[Proposal](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/Project%20proposal.pdf)
+
+[Midterm Report](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/midterm-report%20(1).pdf)
+
+[Presentation](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/766%20Presentation.pptx)
 ## Introduction
 
 Facial expression recognition is a challenging problem in computer vision that aims to identify the emotion expressed by a person's face. The problem involves detecting and analyzing facial features such as eye movement, eyebrow position, and mouth shape to classify the emotion being expressed. The goal of our project is to develop a deep learning-based facial expression recognition system that can accurately classify facial expressions in images and videos.
