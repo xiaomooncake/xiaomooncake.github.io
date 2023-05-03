@@ -136,6 +136,8 @@ The acc_train is : 0.6579818175485039
 The acc_val is : 0.5458344942881025
 The acc_test is : 0.5572582892170521
 ```
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/resnet.png)
+
 VGGNet19
 ``` python
 VGG19 final result：
@@ -144,7 +146,11 @@ The acc_val is : 0.5773195876288659
 The acc_test is : 0.5887433825578156
 
 ```
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/vgg.png)
 Blended model
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/blended.png)
+confusion matrix
+![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/confusion_matrix.png)
 
 
 ## Evaluation
