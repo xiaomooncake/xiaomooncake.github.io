@@ -178,7 +178,7 @@ Neural
 result：			 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
 predicted result：	 [2, 6, 3, 6, 6, 3, 6, 6, 6, 6, 6, 6, 0, 4, 6]
 ```
-## Evaluation and Future work
+## Evaluation
 
 1.Investigating other combinations of pre-trained models and exploring ensemble techniques to further enhance the model's performance.
 
