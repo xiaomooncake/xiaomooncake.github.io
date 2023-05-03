@@ -19,7 +19,7 @@
   <a href="#proposed-approach">Proposed Approach</a> •
   <a href="#novelty">Novelty</a> •
   <a href="#progress">Progress</a> • 
-  <a href="#Evaluation and Future work">Evaluation and Future work</a>
+  <a href="#Evaluation">Evaluation</a>
 </p>
 
 
