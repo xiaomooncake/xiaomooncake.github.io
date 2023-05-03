@@ -49,6 +49,7 @@ The proposed approach differs from existing methods in that it does not rely on 
 
 ## Progress
 Display expression category information
+```
 3    8989
 6    6198
 4    6077
@@ -57,7 +58,7 @@ Display expression category information
 5    4002
 1     547
 Name: emotion, dtype: int64
-
+```
 
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/1.png)
 
@@ -152,7 +153,32 @@ Blended model
 confusion matrix
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/confusion_matrix.png)
 
+Vaild results(blended model):
+```
+Angry
+result：	 	  	 [0, 0, 0, 0, 0, 0, 0, 0]
+predicted result：	 [0, 0, 0, 0, 4, 0, 2, 0]
+Disgust
+result：	 		 [1, 1, 1, 1 ,1 ,1 ,1 ,1]
+predicted result：	 [1, 4, 1, 1, 2, 4, 1 ,1]
+Fear
+result：	 		 [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+predicted result：	 [4, 6, 6, 2, 2, 2, 3, 0, 2, 2, 2, 2, 0, 2, 0, 6, 5, 3, 2]
+Happy
+result：	 		 [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+predicted result：	 [6, 3, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 6, 3, 4, 0]
+Sad
+result：	 		 [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+predicted result：	 [4, 4, 4, 3, 4, 0, 6, 0, 3, 2, 4, 4, 4, 4, 2, 4, 3, 4]
+Surprise
+result：			 [5, 5, 5, 5, 5, 5, 5, 5, 5]
+predicted result：	 [5, 3, 5, 5, 5, 5, 5, 5, 6]
+Neural
+result：			 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+predicted result：	 [2, 6, 3, 6, 6, 3, 6, 6, 6, 6, 6, 6, 0, 4, 6]
 
+
+```
 ## Evaluation
 
 We will evaluate the performance of our proposed approach on two standard datasets, FER2013 and CK+, which contain labeled facial expression images and videos. We will compare the performance of our model with the state-of-the-art approaches using standard evaluation metrics such as accuracy, F1-score, and confusion matrix. We will also investigate the robustness of our model to variations in lighting, pose, and occlusions. The timeline for this project will be as follows:
