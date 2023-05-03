@@ -183,10 +183,15 @@ predicted result：	 [2, 6, 3, 6, 6, 3, 6, 6, 6, 6, 6, 6, 0, 4, 6]
 1.Investigating other combinations of pre-trained models and exploring ensemble techniques to further enhance the model's performance.
 2.Applying advanced image processing techniques, such as background subtraction, illumination normalization, and occlusion handling, to further preprocess the input images and enhance the model's performance.
 3.Real-time applications:
+
 -human-computer interaction
+
 -mental health monitoring
+
 -customer experience
+
 -entertainment
+
 -education
 
 * Feb 24: Project proposal
