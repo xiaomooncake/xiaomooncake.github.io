@@ -7,10 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Xiaohu Zhu (xzhu382@wisc.edu）</a>.</h4>
-
-
-</p>
+<h4 align="center">Xiaohu Zhu (xzhu382@wisc.edu）
 
 <p align="center">
   <a href="#introduction">Introduction</a> •
