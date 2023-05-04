@@ -66,7 +66,7 @@ Display expression category information
 Name: emotion, dtype: int64
 ```
 
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/1.png" alt="image">
 
 We can see that the data for the disgust expression is particularly low, and the other expressions are fair. We will do data augmentation on this type of data to get more accurate results.
 
