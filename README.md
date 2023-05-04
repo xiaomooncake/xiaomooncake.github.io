@@ -85,12 +85,13 @@ Show some training samples to make sure the data is normal.
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/3.png" alt="image">
 
 Model implementation
+
 vgg19
 
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/4.png" alt="image">
 
-
 ResNet18
+
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/5.png" alt="image">
 
 
