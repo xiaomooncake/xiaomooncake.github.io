@@ -7,8 +7,8 @@
   <br>
 </h1>
 
-<h4 align="center">Xiaohu Zhu (xzhu382@wisc.edu）
-  h4>
+<h4 align="center">Xiaohu Zhu (xzhu382@wisc.edu）</h4>
+
 
 <p align="center">
   <a href="#introduction">Introduction</a> •
