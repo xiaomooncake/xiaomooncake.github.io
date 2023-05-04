@@ -82,6 +82,7 @@ Size of training, public test, private test sets
 
 
 Show some training samples to make sure the data is normal.
+
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/3.png" alt="image">
 
 Model implementation
@@ -153,9 +154,13 @@ The acc_test is : 0.5887433825578156
 
 ```
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/vgg.png" alt="image">
+
 Blended model
+
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/blended.png" alt="image">
+
 confusion matrix
+
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/confusion_matrix.png" alt="image">
 
 Vaild results(blended model):
