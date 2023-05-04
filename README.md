@@ -78,28 +78,21 @@ Name: Usage, dtype: int64
 ```
 Size of training, public test, private test sets
 
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/2.png" alt="image">
-
-[image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/2.png)
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/2.png" alt="image">
 
 
 Show some training samples to make sure the data is normal.
-
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/3.png" alt="image">
-
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/3.png)
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/3.png" alt="image">
 
 Model implementation
 vgg19
 
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/4.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/4.png" alt="image">
 
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/4.png)
 
 ResNet18
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/5.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/5.png" alt="image">
 
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/5.png)
 
 Save the trained models
 ```python
@@ -147,9 +140,8 @@ The acc_train is : 0.6579818175485039
 The acc_val is : 0.5458344942881025
 The acc_test is : 0.5572582892170521
 ```
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/resnet.png" alt="image">
 
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/resnet.png)
 
 VGGNet19
 ``` python
@@ -159,17 +151,11 @@ The acc_val is : 0.5773195876288659
 The acc_test is : 0.5887433825578156
 
 ```
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
-
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/vgg.png)
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/vgg.png" alt="image">
 Blended model
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
-
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/blended.png)
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/blended.png" alt="image">
 confusion matrix
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
-
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/confusion_matrix.png)
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/confusion_matrix.png" alt="image">
 
 Vaild results(blended model):
 
