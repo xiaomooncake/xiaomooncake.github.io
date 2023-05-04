@@ -78,26 +78,26 @@ Name: Usage, dtype: int64
 ```
 Size of training, public test, private test sets
 
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/2.png" alt="image">
 
 [image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/2.png)
 
 
 Show some training samples to make sure the data is normal.
 
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/3.png" alt="image">
 
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/3.png)
 
 Model implementation
 vgg19
 
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/4.png" alt="image">
 
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/4.png)
 
 ResNet18
-<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/5.png" alt="image">
 
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/5.png)
 
