@@ -66,7 +66,7 @@ Display expression category information
 Name: emotion, dtype: int64
 ```
 
-![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/1.png)
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
 
 We can see that the data for the disgust expression is particularly low, and the other expressions are fair. We will do data augmentation on this type of data to get more accurate results.
 
@@ -78,22 +78,26 @@ Name: Usage, dtype: int64
 ```
 Size of training, public test, private test sets
 
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
 
 [image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/2.png)
 
 
 Show some training samples to make sure the data is normal.
 
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
 
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/3.png)
 
 Model implementation
 vgg19
 
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
 
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/4.png)
 
 ResNet18
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
 
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/5.png)
 
@@ -143,6 +147,8 @@ The acc_train is : 0.6579818175485039
 The acc_val is : 0.5458344942881025
 The acc_test is : 0.5572582892170521
 ```
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/resnet.png)
 
 VGGNet19
@@ -153,10 +159,16 @@ The acc_val is : 0.5773195876288659
 The acc_test is : 0.5887433825578156
 
 ```
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/vgg.png)
 Blended model
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/blended.png)
 confusion matrix
+<img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/images/1.png" alt="image">
+
 ![image](https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/confusion_matrix.png)
 
 Vaild results(blended model):
