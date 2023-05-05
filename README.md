@@ -65,6 +65,7 @@ Display expression category information
 1     547
 Name: emotion, dtype: int64
 ```
+![image](/main/image/1.png)
 
 <img src="https://github.com/xiaomooncake/xiaomooncake.github.io/blob/main/1.png" alt="image">
 
